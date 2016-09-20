@@ -3,7 +3,7 @@ package edu.upc.eetac.dsa;
 /**
  * Created by OriolGresa on 15/9/16.
  */
-public class Triangle implements Figure{
+public class Triangle extends BasicFigure{
     private double b;
     private double h;
 
@@ -14,8 +14,5 @@ public class Triangle implements Figure{
 
     public double area(){
         return b*h/2;
-    }
-    public String type() {
-        return "Traingle";
     }
 }

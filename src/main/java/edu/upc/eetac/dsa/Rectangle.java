@@ -3,7 +3,7 @@ package edu.upc.eetac.dsa;
 /**
  * Created by OriolGresa on 15/9/16.
  */
-public class Rectangle implements Figure{
+public class Rectangle extends BasicFigure{
 
     private double l1;
     private double l2;
@@ -14,11 +14,7 @@ public class Rectangle implements Figure{
         this.l2=l2;
     }
 
-
     public double area(){
         return l1*l2;
-    }
-    public String type() {
-        return "Rectangle";
     }
 }
