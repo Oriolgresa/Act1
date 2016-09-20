@@ -5,5 +5,4 @@ package edu.upc.eetac.dsa;
  */
 public interface Figure {
     double area ();
-
 }

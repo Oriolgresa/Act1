@@ -8,5 +8,4 @@ public abstract class BasicFigure implements Figure, Comparable<Figure>{
     public int compareTo(Figure f) {
         return (int) (this.area() - f.area());
     }
-
 }
